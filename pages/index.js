@@ -27,7 +27,7 @@ import React from 'react';const Index = () => {
                   <option value="Italian">Italian</option>
                 </select>
                 <div className="z-30 cursor-pointer absolute top-1 -right-3">
-                  <Image className="cursor-pointer" src="/polygon 1.svg" width={17} height={12} alt=""/>
+                  <Image className="cursor-pointer" src="/Polygon 1.svg" width={17} height={12} alt=""/>
                 </div>
               </div>
               <div className="pl-48 w-[804px]">
