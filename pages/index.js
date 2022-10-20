@@ -54,9 +54,11 @@ import React from 'react';const Index = () => {
                 <div className="flex flex-col gap-y-10 pb-12">
                   <input placeholder="Email Address" className="border-b border-gray-200 pb-2 placeholder-gray-600 text-sm focus:outline-none w-full"/>
                   <input placeholder="Password"className="border-b border-gray-200 pb-2 placeholder-gray-600 text-sm focus:outline-none w-full"/></div>
-                  <button className="w-full bg-[#075985] pt-2 pb-2.5 text-white font-semibold hover:bg-sky-700 transition duration-300 rounded-lg mb-3">
-                    Login
-                  </button>
+                  <Link href='/dashbord'>
+                    <button className="w-full bg-[#075985] pt-2 pb-2.5 text-white font-semibold hover:bg-sky-700 transition duration-300 rounded-lg mb-3">
+                      Login
+                    </button>
+                  </Link>
                   <div className="cursor-pointer flex space-x-0.5">
                     <p className="text-gray-500 text-sm">
                       Already have an account?
